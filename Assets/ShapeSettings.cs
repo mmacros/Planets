@@ -1,14 +1,14 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 [CreateAssetMenu()]
-public class ShapeSettings : ScriptableObject
+public class ShapeSettings : ScriptableObject 
 {
-    public float planetRadius = 1f;
+
+    public float planetRadius = 1;
     public NoiseLayer[] noiseLayers;
-    
+
     [System.Serializable]
     public class NoiseLayer
     {

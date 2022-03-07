@@ -15,22 +15,22 @@ MonoBehaviour:
   planetRadius: 0.68
   noiseLayers:
   - enabled: 1
-    useFirstLayerAsMask: 0
+    useFirstLayerAsMask: 1
     noiseSettings:
-      strength: 0.11
-      numLayers: 2
-      baseRoughness: 2.33
-      roughness: 0.26
-      persistence: 1.07
-      center: {x: 0, y: 0, z: 0}
-      minValue: 0.86
+      strength: 0.24
+      numLayers: 5
+      baseRoughness: 0.27
+      roughness: 0.16
+      persistence: 1.12
+      centre: {x: 0, y: 0, z: 0}
+      minValue: 3.13
   - enabled: 1
     useFirstLayerAsMask: 1
     noiseSettings:
-      strength: 3.01
+      strength: 3.19
       numLayers: 4
-      baseRoughness: 1.93
+      baseRoughness: 4.58
       roughness: 0.25
       persistence: -0.29
-      center: {x: 0, y: 0, z: 0}
-      minValue: 0.78
+      centre: {x: 0, y: 0, z: 0}
+      minValue: 0.25
